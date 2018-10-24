@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
-  m <- x[getso]
+  m <- x$getso()
   if(!is.null(m)) {
     message("getting cached data")
     return(m)
