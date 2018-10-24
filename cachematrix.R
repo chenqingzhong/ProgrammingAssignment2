@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## there I use a function to store and get the value of matrix and inverse matrix
+
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## In this function, I can calculate the inverse matrix . But if there is already a value, it get this cached value 
 
 cacheSolve <- function(x, ...) {
   m <- x$getso()
